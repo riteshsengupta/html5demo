@@ -1,0 +1,1 @@
+This application uses html 5 canvas feature along with node.js and socket.io with canvas drawings based on sample random data generated ta definite intervals.
