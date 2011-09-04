@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Websocket Client - Gauge </title>		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="http://localhost:8888/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="js/gaugeData.js"></script>			
+		<script type="text/javascript" src="js/sectionData.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	</head>
+	<body>	
+		<div id="arcdiv">			
+			
+			<div id="main-section-1">
+				<canvas id="testCanvas" width="220" height="250"></canvas><br/>
+				<canvas id="rectangleChart" width="220" height="100"></canvas>
+			</div>
+			
+			
+			<div id="main-section-2">	
+				<div id="sub-section-21">
+					<canvas id="overall" width="200" height="150"></canvas>
+					<canvas id="section-1" width="200" height="150"></canvas>
+					<canvas id="section-2" width="200" height="150"></canvas>
+					<canvas id="section-3" width="200" height="150"></canvas>
+				</div>
+				<div id="sub-section-22">
+					<canvas id="section-4" width="200" height="150"></canvas>
+					<canvas id="section-5" width="200" height="150"></canvas>
+					<canvas id="section-6" width="200" height="150"></canvas>
+					<canvas id="section-7" width="200" height="150"></canvas>
+				</div>
+			</div>
+			
+			<div class="clear"></div>
+			
+		</div>
+	</body>
+</html>	
