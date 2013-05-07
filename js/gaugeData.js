@@ -1,3 +1,5 @@
+// Here I am the boss
+
 // Create socket object for section-1 canvas
 var gaugeDataSocket = io.connect('http://localhost:8888/data/gaugedata');
 
